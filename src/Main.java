@@ -2,6 +2,7 @@
 //import strategy.*;
 //import singleton.*;
 
+import adapter.*;
 import builder.*;
 
 import java.util.List;
@@ -95,8 +96,16 @@ public class Main {
 //        System.out.println(emailNotification.getContent());
 
 
-////////////////////////////////////////////////////////////////////////////////////////        Builder
+////////////////////////////////////////////////////////////////////////////////////////        Adapter
 
+//        ThirdPartyWeatherService weatherService = new ThirdPartyWeatherService();
+//        LegacyWeatherService legacyWeatherService = new LegacyWeatherService(weatherService);
+//        WeatherServiceAdaptee weatherServiceAdapter = new WeatherServiceAdaptee(legacyWeatherService);
+//        TemperatureDate result = weatherServiceAdapter.getTemperature(111111,11111);
+//        System.out.println(result.getTemperatureDate());
+
+
+////////////////////////////////////////////////////////////////////////////////////////
 
     }
 }
